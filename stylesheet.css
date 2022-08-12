@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f6f5f7;
+    background-image: url(https://wallpaperset.com/w/full/2/9/0/110549.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 50vh;
+    margin: 150px 0 50px;
+}
+
+h1 {
+    margin: 0px;
+    border-radius: 20px;
+    border: 1px solid rgb(71, 47, 2);
+    border-width: 5px;
+    background-color: orange;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+}
+
+span {
+    font-size: 12px;
+}
+p{
+    border-radius: 20px;
+    border: 1px solid rgb(1, 1, 64);
+    background-color: darkblue;
+    border-width: 5px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+}
+a {
+    color: blue;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid #751402;
+    background-color: #FF4B2B;
+    border-width: 3px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+
+    button:active {
+        transform: scale(0.95);
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    button.ghost {
+        background-color: transparent;
+        border-color: #FFFFFF;
+    }
+
+form {
+    
+    background-image: url(https://media.istockphoto.com/photos/blue-spotlight-background-picture-id508655394?k=20&m=508655394&s=170667a&w=0&h=Fpn1ZtD8f-XsL33KLVdpAmWqa1MMJ-HQbbwx8wsOdAg=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+
+input {
+    background-color: whitesmoke;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 50%;
+    border-radius: 20px; 
+    border-color: black;
+    border-width: 1px;
+}
+
+.container {
+    background-color: #fff;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    max-width: 100%;
+    min-height: 550px;
+    max-height: 100%;
+}
+
+.form-container {
+    position:relative;
+    top: 0;
+    height: 100%;
+    
+}
+
+
+
